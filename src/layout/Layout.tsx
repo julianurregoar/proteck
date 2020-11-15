@@ -8,6 +8,10 @@ export const Layout: FC = ({ children }) => (
       <title>Proteck and Clean</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    <meta
+      name="description"
+      content="Productos para el hogar y la industria"
+    />
     <div className={styles.Container}>
       {children}
     </div>

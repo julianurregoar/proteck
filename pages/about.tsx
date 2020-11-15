@@ -1,10 +1,11 @@
 import '../src/style/_app.scss'
-import Header from '-/src/components/Header'
+import Header from '../src/components/Header/Header'
 
-export const Index = () => (
+const About = () => (
   <>
     <Header>About</Header>
     About!
   </>
 )
 
+export default About

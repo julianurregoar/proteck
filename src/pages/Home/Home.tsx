@@ -1,6 +1,6 @@
 import Link from "next/link"
-import Header from "../components/Header"
-import { Layout } from "../layout/Layout"
+import Header from "../../components/Header/Header"
+import { Layout } from "../../layout/Layout"
 
 
 export const Home = () => {
@@ -9,6 +9,7 @@ export const Home = () => {
       <Layout>
         <Header>Next App</Header>
         <Link href='/about'>ABOUT</Link>
+      welcome!
       </Layout>
     </div>
   )
