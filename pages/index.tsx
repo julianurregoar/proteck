@@ -1,11 +1,12 @@
+import '../src/style/_app.scss'
 import Header from '-/src/components/Header'
-import styles from './style.module.scss'
+import Link from 'next/link'
+import { Home } from '-/src/pages/Home'
 
-const Home = ()=>(
-  <div className={styles.Home }>
-    <Header>Next App</Header>
-    welcome!
-  </div>
+const Index = () => (
+  <>
+    <Home />
+  </>
 )
 
-export default Home
+export default Index
