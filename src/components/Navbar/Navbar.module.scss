@@ -1,0 +1,119 @@
+@import "../../style/mixins";
+
+.Brand {
+  min-width: 190px;
+  font-family: inherit;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: inherit;
+  color: $color-blue;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+  &:hover {
+    color: green;
+  }
+}
+
+// Navbar
+.Navbar {
+  width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+  color: $color-black;
+  background: $color-white;
+  box-shadow: $box-shadow;
+
+  @include largescreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.NavBrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Burger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  transition: all 0.35s ease;
+
+  &_Close {
+    display: none;
+  }
+
+  @include largescreen {
+    display: none;
+  }
+}
+
+.IsActive {
+  .Burger_Open {
+    display: none;
+  }
+  .Burger_Close {
+    display: flex;
+  }
+}
+
+.Menu {
+  width: 100%;
+  height: 0;
+  font-size: 1.4rem;
+  overflow: hidden;
+  transition: all 0.5s ease;
+
+  &_Item {
+    margin: 0.5rem 0;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: inherit;
+    color: $color-black;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    transition: all 0.35s ease;
+
+    &:hover {
+      color: grey;
+    }
+    &:active {
+      color: grey;
+    }
+  }
+
+  @include largescreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+
+    &_Item {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+  }
+}
+
+.IsActiveList {
+  z-index: 20;
+  width: 100%;
+  height: 10rem;
+  margin: 1rem 0;
+  @include largescreen {
+    height: 1rem;
+  }
+}
