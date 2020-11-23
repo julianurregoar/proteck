@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ProductCard.module.scss'
 
-export const ProductCard = ({ img, price }) => {
+export const ProductCard = () => {
   return (
     <div className={styles.Container}>
       <img src="/images/b1.png" alt="" />
