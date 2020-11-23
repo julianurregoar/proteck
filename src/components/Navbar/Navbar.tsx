@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
           <div className={clsx(styles.Burger, open && styles.IsActive)} id="burger" onClick={() => setOpen(!open)}>
             <span className={styles.Burger_Open}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
-                <g fill="#252a32" fill-rule="evenodd">
+                <g fill="#252a32" fillRule="evenodd">
                   <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
                 </g>
               </svg>
