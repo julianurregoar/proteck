@@ -6,12 +6,12 @@ import { Layout } from "../../Layout/Layout"
 export const Home = () => {
   return (
     <>
-      {/* <Layout> */}
-      <PageHeader />
-      <Products title={"Hogar"} />
-      <OurBrand />
-      <Products title={'Industria'} />
-      {/* </Layout> */}
+      <Layout>
+        <PageHeader />
+        <Products title={"Hogar"} />
+        <OurBrand />
+        <Products title={'Industria'} />
+      </Layout>
     </ >
   )
 }
