@@ -8,7 +8,7 @@ type Props = {
   children: any;
 }
 
-export const Layout: FC<Props> = ({ children }) => (
+export const Layout: FC = ({ children }: Props) => (
   <>
     <Head>
       <title>Proteck and Clean</title>
