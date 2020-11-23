@@ -1,0 +1,78 @@
+@import "../../style/mixins";
+
+.Container {
+  width: 100px;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  position: relative;
+  margin: 29px;
+
+  // margin: 10px 30px;
+
+  img {
+    height: 180px;
+  }
+
+  p {
+    color: #4d4d4d70;
+    font-family: myriad pro;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+  }
+
+  .Price {
+    color: #2c2c2c;
+    font-family: poppins;
+    font-size: 1rem;
+  }
+
+  .BuyBtn {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    background: linear-gradient(120deg, $color-orange 20%, $color-orange);
+    color: #ffffff;
+    animation: fade 0.2s;
+  }
+
+  &:hover,
+  .BuyBtn:hover {
+    display: flex;
+  }
+
+  &:hover {
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  &:hover,
+  .Price:hover {
+    color: #6b60ec;
+    transition: all ease 0.2s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @include largeScreen {
+    width: 250px;
+    margin: 10px 30px;
+  }
+}

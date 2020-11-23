@@ -1,0 +1,60 @@
+@import "../../style/mixins";
+
+.Footer {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  // background-image: url("../images/poduct bg.png");
+  background-size: 400px;
+  background-position: center;
+  border-radius: 10px;
+
+  .FooterMenu {
+    width: 100%;
+    margin: 20px;
+    flex-wrap: wrap;
+    background-color: none;
+    box-shadow: none;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    justify-content: center;
+    align-items: center;
+    // padding: 5px 40px;
+
+    li,
+    a {
+      padding: 5px rem;
+      margin: 10px;
+      display: flex;
+      color: #202020;
+      :hover {
+        color: #6b60ec;
+      }
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      color: #202020;
+      margin: 0px;
+    }
+  }
+
+  @include largeScreen {
+    display: flex;
+    .FooterMenu {
+      display: flex;
+      box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+  }
+}
+
+.Copyright {
+  color: #e7e7e7;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}

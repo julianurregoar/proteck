@@ -6,7 +6,7 @@
 ::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   list-style: none;
   list-style-type: none;
   text-decoration: none;
@@ -16,9 +16,15 @@
 html {
   // tgis define whta 1rem is
   /* font-size: 10px; */
-  font-size: 62.5%;
-  // font-size: 14px;
+  // font-size: 62.5%;
+  font-size: 14px;
 }
+
 body {
   box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

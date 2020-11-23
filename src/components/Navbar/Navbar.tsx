@@ -11,9 +11,7 @@ export const Navbar: React.FC = () => {
         <div className={styles.NavBrand}>
           <h1 className={styles.Brand}>
             <Link href="/" >
-              <span>
-                Proteck and Clean
-              </span>
+              <img src="/images/logo.jpeg" alt="" />
             </Link>
           </h1>
           <div className={clsx(styles.Burger, open && styles.IsActive)} id="burger" onClick={() => setOpen(!open)}>
@@ -43,26 +41,17 @@ export const Navbar: React.FC = () => {
           <li className={styles.Menu_Item}>
             <Link href="#" >
               <span className={styles.Menu_Link}>
-                Nosotros
+                Portafolio
             </span>
             </Link>
           </li>
           <li className={styles.Menu_Item}>
             <Link href="#" >
               <span className={styles.Menu_Link}>
-                Nosotros
+                contáctanos
             </span>
             </Link>
           </li>
-          <li className={styles.Menu_Item}>
-            <Link href="#" >
-              <span className={styles.Menu_Link}>
-                Nosotros
-            </span>
-            </Link>
-          </li>
-
-
         </ul>
 
       </nav>

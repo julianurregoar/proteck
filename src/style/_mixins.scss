@@ -2,14 +2,15 @@ $orange-color: red;
 
 $color-white: #ffffff;
 $color-black: #252a32;
+$color-gray: rgb(248, 239, 239);
 $color-light: #f1f5f8;
-$color-red: #d32f2f;
+$color-orange: rgb(233, 116, 7);
 $color-blue: #148cb8;
 
 $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 
-@mixin largescreen {
-  @media only screen and(min-width: 768px) {
+@mixin largeScreen {
+  @media only screen and(min-width: 900px) {
     @content;
   }
 }
