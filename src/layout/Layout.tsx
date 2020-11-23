@@ -4,7 +4,11 @@ import styles from './Layout.module.scss';
 import { Navbar } from '../components/Navbar/Navbar';
 import { Footer } from '../components/Footer/Footer';
 
-export const Layout: FC = ({ children }) => (
+type Props = {
+  children: React.ReactElement[]
+}
+
+export const Layout: FC<Props> = ({ children }) => (
   <>
     <Head>
       <title>Proteck and Clean</title>
