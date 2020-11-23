@@ -5,7 +5,7 @@ import { Navbar } from '../components/Navbar/Navbar';
 import { Footer } from '../components/Footer/Footer';
 
 type Props = {
-  children: React.ReactElement[]
+  children: any;
 }
 
 export const Layout: FC<Props> = ({ children }) => (
