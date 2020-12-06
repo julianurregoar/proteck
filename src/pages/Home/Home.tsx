@@ -1,7 +1,8 @@
 import { OurBrand } from "-/src/components/OurBrand/OurBrand"
 import { Products } from "-/src/components/Products/Products"
+import { Layout } from "-/src/Layout/Layout"
 import { PageHeader } from "../../components/Header/PageHeader"
-import { Layout } from "../../Layout/Layout"
+
 
 export const Home = () => {
   return (
