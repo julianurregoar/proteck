@@ -1,11 +1,12 @@
 import { FC } from 'react';
 import Head from 'next/head';
-import styles from './Layout.module.scss';
 import { Navbar } from '../components/Navbar/Navbar';
 import { Footer } from '../components/Footer/Footer';
 
+import styles from './Layout.module.scss';
+
 type Props = {
-  children: any;
+  children: React.ReactNode;
 }
 
 export const Layout: FC = ({ children }: Props) => (
