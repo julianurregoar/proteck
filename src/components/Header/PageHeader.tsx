@@ -12,7 +12,7 @@ export const PageHeader = () => (
       </Link>
     </div> */}
     <div className={styles.SideBox}>
-      <a href="https://api.whatsapp.com/send?phone=543005425&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%productos." target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=573113005425&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%productos." target="_blank">
         <span className={styles.Icon}>
           <FontAwesomeIcon icon={faWhatsapp} style={{ marginTop: '15px', color: 'white' }} />
         </span>
