@@ -9,7 +9,7 @@ type Props = {
   children: React.ReactNode;
 }
 
-export const Layout: FC = ({ children }: Props) => (
+export const Layout: FC<Props> = ({ children }) => (
   <>
     <Head>
       <title>Proteck and Clean</title>
