@@ -1,4 +1,4 @@
-import { BasicLayout } from "-/src/BasicLayout/BasicLayout"
+import { Layout } from "-/src/Layout/Layout"
 import { OurBrand } from "-/src/components/OurBrand/OurBrand"
 import { Products } from "-/src/components/Products/Products"
 import { PageHeader } from "../../components/Header/PageHeader"
@@ -7,12 +7,12 @@ import { PageHeader } from "../../components/Header/PageHeader"
 export const Home = () => {
   return (
     <>
-      <BasicLayout>
+      <Layout>
         <PageHeader />
         <Products title={"Hogar"} />
         <OurBrand />
         <Products title={'Industria'} />
-      </BasicLayout>
+      </Layout>
     </ >
   )
 }
