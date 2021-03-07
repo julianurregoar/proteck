@@ -125,7 +125,7 @@
 
   &:hover {
     color: #ffffff;
-    background-color: #6e64ff;
+    background-color: #25d366;
     transition: all ease 0.5s;
   }
 }
@@ -159,13 +159,17 @@
 @include largeScreen {
   .MainImage {
     display: block;
-    height: 350px;
+    // height: 350px;
+    img {
+      margin-bottom: -100px;
+      height: 800px;
+    }
   }
 
   .Social {
     display: block;
   }
-  img {
-    height: 450px;
-  }
+  // img {
+  //   height: 450px;
+  // }
 }

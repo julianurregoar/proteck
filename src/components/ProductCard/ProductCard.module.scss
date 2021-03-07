@@ -12,7 +12,12 @@
   margin: 29px;
 
   // margin: 10px 30px;
-
+  @include largeScreen {
+    &:hover {
+      box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+  }
   img {
     height: 180px;
   }
@@ -28,6 +33,7 @@
     color: #2c2c2c;
     font-family: poppins;
     font-size: 1rem;
+    pointer-events: none;
   }
 
   .BuyBtn {
@@ -50,16 +56,6 @@
   &:hover,
   .BuyBtn:hover {
     display: flex;
-  }
-
-  &:hover {
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-  }
-  &:hover,
-  .Price:hover {
-    color: #6b60ec;
-    transition: all ease 0.2s;
   }
 
   @keyframes fade {

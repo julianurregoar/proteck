@@ -8,7 +8,7 @@ const year = () => {
 export const Footer = () => (
   <div>
     <footer className={styles.Footer}>
-      <h3>LOGO</h3>
+      {/* <h3>LOGO</h3> */}
       <ul className={styles.FooterMenu}>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">Contáctanos</a></li>

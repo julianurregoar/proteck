@@ -6,13 +6,11 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-  // background-image: url("../images/poduct bg.png");
   background-size: 400px;
   background-position: center;
   border-radius: 10px;
 
   .FooterMenu {
-    width: 100%;
     margin: 20px;
     flex-wrap: wrap;
     background-color: none;
@@ -20,7 +18,6 @@
     border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
     justify-content: center;
     align-items: center;
-    // padding: 5px 40px;
 
     li,
     a {

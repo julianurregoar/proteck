@@ -1,0 +1,34 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "workbench.sideBar.location": "right",
+  "git.enableSmartCommit": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.endOfLine": "auto",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.editor.wrapTabs":true,
+  "python.languageServer": "Microsoft",
+  "launch": {
+  
+
+
+  "inputs": [],
+    "configurations": [],
+    "compounds": []
+  },
+
+
+
+}

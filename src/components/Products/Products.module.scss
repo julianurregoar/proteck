@@ -1,20 +1,7 @@
 @import "../../style/mixins";
 
 .Product {
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
-  display: flex;
-  margin: 30px auto;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 10px;
-  margin-top: -60px;
-  position: relative;
-  // background-image: url("../images/poduct bg.png");
-  background-size: 1000px;
-  background-position: center;
-  border-radius: 10px;
+  margin: auto;
 
   &_Heading {
     margin: 10px;
@@ -39,7 +26,7 @@
   }
 
   @include largeScreen {
-    width: 85%;
+    width: 100%;
     padding: 40px 20px;
   }
 }
