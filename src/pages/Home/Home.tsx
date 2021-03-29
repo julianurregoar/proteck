@@ -3,6 +3,8 @@ import { OurBrand } from "-/src/components/OurBrand/OurBrand"
 import { Products } from "-/src/components/Products/Products"
 import { PageHeader } from "../../components/Header/PageHeader"
 import styles from './Home.module.scss'
+import { isUserForm } from "-/src/apollo/fetchPolicy/fetchPolicy"
+import { useReactiveVar } from "@apollo/client"
 
 const cremaLimpiadora = [
   {
@@ -45,7 +47,13 @@ const diecox = [
   },
 
 ]
+
+
 export const Home = () => {
+  const userForm = useReactiveVar(isUserForm);
+
+  console.log("Home", userForm)
+
   return (
     <>
       <Layout>
