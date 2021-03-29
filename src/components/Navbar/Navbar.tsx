@@ -46,9 +46,9 @@ export const Navbar: React.FC = () => {
             </Link>
           </li>
           <li className={styles.Menu_Item}>
-            <Link href="#" >
+            <Link href="/contact" >
               <span className={styles.Menu_Link}>
-                contáctanos
+                contact
             </span>
             </Link>
           </li>
