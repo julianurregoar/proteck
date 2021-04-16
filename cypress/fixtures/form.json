@@ -1,0 +1,8 @@
+{
+  "contactButton": ":nth-child(3) > span",
+  "firstNameInput": "[name='firstName']",
+  "lastNameInput": "[name='lastName']",
+  "selectGenderOption": "select",
+  "nextButton": "._365k3uKFXXCtl2NO_2eNwG"
+
+}
