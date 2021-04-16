@@ -13,6 +13,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
   },
+  "editor.formatOnType": true,
+  "prettier.useTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "prettier.endOfLine": "auto",
   "[typescript]": {
@@ -21,6 +23,7 @@
   "workbench.editor.wrapTabs":true,
   "python.languageServer": "Microsoft",
   "launch": {
+
   
 
 
